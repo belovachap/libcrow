@@ -1,0 +1,11 @@
+: 1
+name: libcrow
+version: 0.1.0-a.0.z
+summary: crow C++ library
+license: BSD-3-Clause
+description-file: README.md
+url: https://example.org/libcrow
+email: chapman.shoop@gmail.com
+depends: * build2 >= 0.12.0
+depends: * bpkg >= 0.12.0
+#depends: libhello ^1.0.0

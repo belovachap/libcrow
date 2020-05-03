@@ -1,38 +1,25 @@
-# Compiled Object files
-*.slo
-*.lo
+.bdep/
+
+# Local default options files.
+#
+.build2/local/
+
+# Compiler/linker output.
+#
+*.d
+*.t
+*.i
+*.ii
 *.o
 *.obj
-
-# Compiled Dynamic libraries
 *.so
-*.dylib
 *.dll
-
-# Compiled Static libraries
-*.lai
-*.la
 *.a
 *.lib
-
-# Executables
+*.exp
+*.pdb
+*.ilk
 *.exe
-*.out
-*.app
-
-example
-unittest
-
-*.swp
-*.gcov
-
-*.gcda
-*.gcno
-
-build
-
-.directory
-crow_all.h
-
-# conan.io
-build/
+*.exe.dlls/
+*.exe.manifest
+*.pc
