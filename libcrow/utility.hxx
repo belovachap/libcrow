@@ -8,7 +8,7 @@
 #include <functional>
 #include <string>
 
-#include "crow/settings.h"
+#include <libcrow/settings.hxx>
 
 namespace crow
 {

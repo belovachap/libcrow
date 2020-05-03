@@ -2,9 +2,9 @@
 #include <string>
 #include <unordered_map>
 
-#include "crow/json.h"
-#include "crow/http_request.h"
-#include "crow/ci_map.h"
+#include <libcrow/json.hxx>
+#include <libcrow/http_request.hxx>
+#include <libcrow/ci_map.hxx>
 
 namespace crow
 {

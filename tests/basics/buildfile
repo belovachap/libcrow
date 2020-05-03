@@ -1,3 +1,4 @@
 import libs = libcrow%lib{crow}
+import libs += libboost-system%lib{boost_system}
 
 exe{driver}: {hxx ixx txx cxx}{**} $libs testscript{**}

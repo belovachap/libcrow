@@ -10,13 +10,13 @@
 #include <thread>
 #include <condition_variable>
 
-#include "crow/settings.h"
-#include "crow/logging.h"
-#include "crow/utility.h"
-#include "crow/routing.h"
-#include "crow/middleware_context.h"
-#include "crow/http_request.h"
-#include "crow/http_server.h"
+#include <libcrow/settings.hxx>
+#include <libcrow/logging.hxx>
+#include <libcrow/utility.hxx>
+#include <libcrow/routing.hxx>
+#include <libcrow/middleware_context.hxx>
+#include <libcrow/http_request.hxx>
+#include <libcrow/http_server.hxx>
 
 
 #ifdef CROW_MSVC_WORKAROUND

@@ -7,15 +7,15 @@
 #include <chrono>
 #include <vector>
 
-#include "crow/http_parser_merged.h"
+#include <libcrow/http_parser_merged.hxx>
 
-#include "crow/parser.h"
-#include "crow/http_response.h"
-#include "crow/logging.h"
-#include "crow/settings.h"
-#include "crow/dumb_timer_queue.h"
-#include "crow/middleware_context.h"
-#include "crow/socket_adaptors.h"
+#include <libcrow/parser.hxx>
+#include <libcrow/http_response.hxx>
+#include <libcrow/logging.hxx>
+#include <libcrow/settings.hxx>
+#include <libcrow/dumb_timer_queue.hxx>
+#include <libcrow/middleware_context.hxx>
+#include <libcrow/socket_adaptors.hxx>
 
 namespace crow
 {

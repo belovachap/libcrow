@@ -7,7 +7,7 @@
 #include <iostream>
 #include <sstream>
 
-#include "crow/settings.h"
+#include <libcrow/settings.hxx>
 
 namespace crow
 {
